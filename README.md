@@ -22,10 +22,10 @@ How to Use
    Paste this and hit enter: pip install undetected-chromedriver pillow tqdm setuptools
 
 3. Download the Script (WPlace.live Screenbot.py)
-   Place Bigpic.py in a folder of your choice.
+   Place WPlace.live Screenbot.py in a folder of your choice.
 
 4. Adjust Settings (optional)
-   Open Bigpic.py and check the CONFIGURATION section:
+   Open WPlace.live Screenbot.py and check the CONFIGURATION section:
    - GRID_WIDTH & GRID_HEIGHT → Number of tiles to capture horizontally and vertically.
    - START_URL = "https://wplace.live/?lat=40.800703958993395&lng=-74.14584994072266&zoom=13" ZOOM has to be 13
 
