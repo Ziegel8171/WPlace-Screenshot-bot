@@ -11,8 +11,8 @@ from datetime import datetime # Use datetime for timestamps
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-GRID_WIDTH = 15
-GRID_HEIGHT = 15
+GRID_WIDTH = 2
+GRID_HEIGHT = 2
 START_URL = "https://wplace.live/?lat=41.08882474886046&lng=-74.56825228447266&zoom=13" # Zoom has to be 13!
 WINDOW_WIDTH = 1280 # Don't touch
 WINDOW_HEIGHT = 800 # Don't touch
@@ -130,4 +130,5 @@ if __name__ == "__main__":
         capture_tiles(lat, lng, zoom)
         stitch_tiles()
     except Exception as e:
+
         print(f"An error occurred: {e}")
