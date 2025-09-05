@@ -9,8 +9,7 @@ Requirements
 - Python 3.8+ → Download here: https://www.python.org/downloads/
 - Google Chrome (latest version)
 - The following Python packages:
-
-pip install undetected-chromedriver pillow tqdm setuptools
+  undetected-chromedriver pillow tqdm setuptools
 
 How to Use
 ----------
