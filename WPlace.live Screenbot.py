@@ -21,7 +21,7 @@ WINDOW_HEIGHT = 800 # Don't touch
 LAT_STEP = -0.04600 # Don't touch
 LNG_STEP = 0.10850 # Don't touch
 
-# Max time to wait for the page to load
+# Max time to wait for the page to load (in seconds)   |    Change this if the website isn't loading fast enough.
 TIMEOUT_PER_TILE = 0.5
 
 ELEMENTS_TO_HIDE = [
@@ -30,7 +30,8 @@ ELEMENTS_TO_HIDE = [
     '.main-wrapper', 'div.absolute:nth-child(8)'
 ]
 # ==============================================================================
-
+# DON'T TOUCH ANYTHING BEYOND HERE IF YOU DON'T KNOW WHAT YOU ARE DOING!
+# ==============================================================================
 def capture_tiles(start_lat, start_lng, zoom):
     print("Starting capture with visible browser...")
     
@@ -132,3 +133,4 @@ if __name__ == "__main__":
     except Exception as e:
 
         print(f"An error occurred: {e}")
+
