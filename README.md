@@ -19,15 +19,15 @@ How to Use
    If you don’t already have it, install Python 3.8+: https://www.python.org/downloads/
    
 2. Press Windows+R -> type cmd -> hit enter
-   Paste this and hit enter: pip install undetected-chromedriver pillow tqdm setuptools
+   Paste this -> "pip install undetected-chromedriver pillow tqdm setuptools" and hit enter.
 
-3. Download the Script (WPlace.live Screenbot.py)
-   Place WPlace.live Screenbot.py in a folder of your choice.
+3. Download the Script and place "WPlace.live Screenbot.py" in a folder of your choice.
 
-4. Adjust Settings (optional)
+4. Adjust Settings
    Open WPlace.live Screenbot.py and check the CONFIGURATION section:
    - GRID_WIDTH & GRID_HEIGHT → Number of tiles to capture horizontally and vertically.
-   - START_URL = "https://wplace.live/?lat=40.800703958993395&lng=-74.14584994072266&zoom=13" ZOOM has to be 13
+   - START_URL = "https://wplace.live/?lat=40.800703958993395&lng=-74.14584994072266&zoom=13" 
+     ZOOM has to be 13!!   Latitude and longitude can be changed.
 
    By default, it starts with a 2x2 grid at the given coordinates.
 
